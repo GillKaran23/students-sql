@@ -111,3 +111,9 @@ The Students Management System consists of a total of **26 tables**. The main ta
 
 - Use a subquery to find the students who have the Above 3.49 **lastsemCGPA** in each **graduatedhighschooltype**.
 - Use a subquery to list students who have the same **expextedCGPA** as their **lastsemCGPA**.
+
+### 8. **Creating Views**
+
+- Create a view showing students with a **lastsemCGPA** and **expextedCGPA** both are **2.50-2.99**.
+- Create a view displaying all students who have **additional work** and attend **seminars regularly**.
+- Delete Both the **VIEWS**.
