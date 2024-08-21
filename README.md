@@ -2,13 +2,13 @@
 
 ## Overview
 
-The Students Management System consists of a total of **26 tables**. The main table, **Students**, serves as the core of the system, linking to various other tables.
+The Students Management System consists of a total of **27 tables**. The main table, **Students**, serves as the core of the system, linking to various other tables.
 
 ### Students Table (Main Table)
 
 - **Total Rows:** 145
 - **Total Columns:** 30
-- **Description:** The **Students** table contains IDs that reference data in the other 25 tables. This data currently appears as unreadable IDs, making it necessary to transform these IDs into meaningful information.
+- **Description:** The **Students** table contains IDs that reference data in the other 26 tables. This data currently appears as unreadable IDs, making it necessary to transform these IDs into meaningful information.
 
 ### Students Columns
 
@@ -43,7 +43,7 @@ The Students Management System consists of a total of **26 tables**. The main ta
 - course_id
 - grade
 
-## Other 25 Tables
+## Other 26 Tables
 
 - **age**
 - **sex**
@@ -70,6 +70,7 @@ The Students Management System consists of a total of **26 tables**. The main ta
 - **cgpa**
 - **courses**
 - **grade**
+- **student_name**
 
 ## Tasks
 
@@ -117,3 +118,20 @@ The Students Management System consists of a total of **26 tables**. The main ta
 - Create a view showing students with a **lastsemCGPA** and **expextedCGPA** both are **2.50-2.99**.
 - Create a view displaying all students who have **additional work** and attend **seminars regularly**.
 - Delete Both the **VIEWS**.
+
+### 9. **Complex Queries**
+
+- Write a query to find students who **do not take notes** but have an **attendance** record of **Always**.
+- List all students who belong to the **age** group **22-25**, have a partner, and whose **parentalstatus** is **Died - One of Them Or Both**.
+
+### 10. **Create & Display Table**
+
+- Create Table **student_name** which has two columns **id**, **std_name**.
+- Insert the values in **student_name** according to the **id** in **students** table.
+- Join **student_name** & **students** and display **std_name**.
+
+### 11. **Count Tables and Columns**
+
+- Show all the **Databases**.
+- Count Total Tables in **students** Database.
+- Display Table with the **Columns count** of **students** Database.
